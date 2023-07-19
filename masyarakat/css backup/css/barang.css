@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .item h3 {
+    margin-top: 10px;
+  }
+  
+  .item p {
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
